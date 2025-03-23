@@ -31,3 +31,40 @@ Response:
 404 Not Found: Player not found.
 
 
+# WalletAPI
+
+## Overview
+
+This API allows for the management of player wallets, including registering new players, processing transactions, and retrieving wallet balances and transaction histories.
+
+## Endpoints
+
+### 1. Register Player
+
+**Endpoint:**  
+`POST /api/wallets/register/{playerId}`
+
+**Description:**  
+Registers a new player.
+
+**Response:**
+- `200 OK`: Player registered successfully.
+- `409 Conflict`: Player already registered.
+
+---
+
+### 2. Credit Transaction
+
+**Endpoint:**  
+`PUT /api/wallets/transaction/{playerId}`
+
+**Description:**  
+Processes a credit transaction for a player.
+
+**Request Body:**
+```json
+{
+  "transactionId": "string",
+  "type": "string",
+  "amount": "decimal"
+}
