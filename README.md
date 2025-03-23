@@ -67,7 +67,7 @@ Processes a credit transaction for a player.
   "transactionId": "string",
   "type": "string",
   "amount": "decimal"
-}```
+} ```
 
 **Response:**
 200 OK: Transaction accepted.
