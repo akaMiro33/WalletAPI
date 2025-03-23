@@ -68,3 +68,8 @@ Processes a credit transaction for a player.
   "type": "string",
   "amount": "decimal"
 }
+
+**Response:**
+200 OK: Transaction accepted.
+400 Bad Request: Transaction rejected.
+404 Not Found: Player not found.
