@@ -1,8 +1,6 @@
 # WalletAPI
 Endpoint: POST /api/wallets/register/{playerId}
-
 Description: Registers a new player.
-
 Response:
 
 200 OK: Player registered successfully.
