@@ -4,7 +4,7 @@ Description: Registers a new player.
 Response:
 200 OK: Player registered successfully.
 409 Conflict: Player already registered.
-
+ 
 Endpoint: PUT /api/wallets/transaction/{playerId}
 Description: Processes a credit transaction for a player.
 Request Body:
