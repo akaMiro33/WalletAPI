@@ -38,7 +38,7 @@ namespace WalletAPI.Models
                     {
                         Id = transactionId,
                         Type = type,
-                        Amount = amount,
+                        Amount = amount * 2,
                         Accepted = false
                     };
 
